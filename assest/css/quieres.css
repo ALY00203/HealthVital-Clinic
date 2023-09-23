@@ -1,0 +1,447 @@
+/* Styles for extra small devices (e.g., mobile phones) */
+@media only screen and  (max-width: 1200px) {
+    .nav {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: auto;
+    }
+.links  ul   {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+.img-child{
+    top: 35px;
+    left: -50px;
+} 
+.parent{
+    margin-bottom: 10px;
+}
+.dep{
+    padding-bottom: 70px;
+}
+.footer-container{
+    height: 450px;
+}
+}
+
+
+@media only screen and  (max-width: 1023px) {
+    .nav {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: auto;
+    }
+.links  ul   {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    .img-child{
+        top: 50px;
+        left: -150px;
+        z-index: -1;
+    }
+    .cards{
+        display: flex;
+        flex-wrap:wrap;
+         width: 100%;
+    }
+    .card-1,.card-2,.card-3,.card-4{
+        width: 500px;
+    }
+    .parent,.health-center,.dep{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .welcome{
+        width: 70%;
+    }
+    .main-5,.section-five{
+        width: 100%;
+    }
+    .our{
+        width: 90%;
+        align-items: flex-start;
+    }
+    .about-us  h1 {
+        margin-left: 30px;
+    }
+    .our h1{
+        margin-left: 30px;
+    }
+    .title{
+        margin-left: 30px;
+    }
+    .t-main{
+        width: 100%;
+        align-items: flex-start;
+        justify-content: start;
+    }
+    .news{
+        width: 100%;
+        align-items: flex-start;
+        justify-content: start;
+    }
+    .titlee{
+        margin-left: 30px;
+
+    }
+    .footer-container{
+        height: 420px;
+    }
+    .footer{
+        gap: 1 0px;
+    }
+}
+
+
+
+@media only screen and  (max-width: 767px) {
+.upper-Nav {
+        display: none;
+           }
+.nav {
+               width: 100%;
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: center;
+               text-align: center;
+               height: auto;
+           }
+.links  ul   {
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: center;
+           align-items: center;
+           width: 100%;
+           margin-top: 20px;
+           margin-bottom: 20px;
+           }
+.text-slid-1 {
+    display: none;
+}
+.img-child{
+    left: 88px;
+    top: 50px;
+}
+.img-of-slider3{
+    display: none;
+}
+.info-two{
+    width: 100%;
+}
+.video-of-slider4{
+    display: none;
+}
+.info-four{
+    width: 100%;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.parent,.health-center,.welcome{
+    width: 100%;
+}
+.pha1,.main-5,.section-five,.about-us{
+    width: 100%;
+}
+.our{
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+
+}
+.t-main{
+    width: 100%;
+
+}
+.title{
+    width: 100%;
+    justify-content: start;
+    align-items: start;
+}
+.card p {
+    width: 100%;
+}
+.news{
+    width: 100%;
+}
+.titlee{
+    width: 100%;
+    justify-content: start;
+    align-items: start;
+}
+.slider-container{
+    width: 90%;
+}
+.footer-container{
+    height: auto;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+}
+.f-child{
+margin-bottom: 50px;
+width: 35%;
+}
+.card-shop-9-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.slider-shop-22 {
+    display: none;
+}
+    .main-15{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .center-content   {
+        width: 100%;
+    }
+    .our-services{
+        display: none;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 480px) {
+    .upper-Nav {
+     display: none;
+    }
+    .nav {
+        width: 115%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: auto;
+        align-self: center;
+    justify-self: center;
+    /* border: 5px solid green; */
+
+       }
+    .links  ul   {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-self: center;
+    justify-self: center;
+    }
+
+    .slider {
+        display: none;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .welcome{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 140px;
+        width: 100%;
+        text-align: start;
+        width: 100%;
+    }
+    .health-center{
+        width: 100%;
+    }
+  
+    .about-us{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec-1-main{
+        display: flex;
+       justify-content: center;
+       align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .section-five{
+        width: 100%;
+    }
+    .main-5{
+        width: 100%;
+    }
+    .pha-5{
+        width: 100%;
+    }
+    .one-one{
+        width: 100%;
+    }
+    .two-two{
+        width: 100%;
+    }
+    .p{
+        width: 100%;
+    }
+    .stickybg{
+        margin-top: 155px;
+    }
+    .pha1,
+    .pha2{
+        width: 100%;
+    }
+    .dep{
+        display: flex;
+        gap: 0px;
+        padding-bottom: 180px;
+        flex-direction: column;
+    }
+    .meet-doctors{
+        width: 70%;
+    }
+    .our{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    body {
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .accordion{
+        width: 100%;
+    }
+    .t-main,.title{
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+    .card-container{
+        display: flex;
+        justify-self: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .news{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .titlee{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        height: auto;
+        width: 100%;
+        border: 1px solid green ;
+    }
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        margin-top: 100px;
+
+    }
+
+    .f-child {
+        margin-right: 0;
+        /* margin-bottom: 20px; */
+        text-align: start;
+        width: 100%;
+        text-align: center;
+    }
+    .h-center{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-shop-9-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .card-shop-9{
+        width: 60%;
+    }
+    .slider-shop-22 {
+        display: none;
+    }
+    .main-15{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .center-content   {
+        width: 100%;
+    }
+    .our-services{
+        display: none;
+    }
+    .plan {
+        display: flex;
+        flex-direction: column; 
+    }
+    .plan-option{
+        width: 80%;
+    }
+    }
+
